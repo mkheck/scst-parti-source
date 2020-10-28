@@ -39,13 +39,15 @@ class ConfigThisThing {
 	}
 }
 
+/*
 @Component
-class PartitionKeyBS implements PartitionKeyExtractorStrategy {
+class PartitionKeyES implements PartitionKeyExtractorStrategy {
 	@Override
 	public Object extractKey(Message<?> message) {
 		return ((Greeting) message.getPayload()).getId();
 	}
 }
+*/
 
 @Data
 @AllArgsConstructor
